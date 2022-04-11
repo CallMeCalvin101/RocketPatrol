@@ -84,6 +84,7 @@ class Play extends Phaser.Scene {
         }
 
         this.bg.tilePositionX -= 4;
+        this.bg.tilePositionY -= 2;
 
         if (!this.gameOver) {
             this.p1Rocket.update();
